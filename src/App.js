@@ -1,10 +1,12 @@
-
-
+import { Container } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <h1>Error Nothing exists.</h1>
-    </div>
+    <Container className="mt-5">
+      <ul>
+        <li><Link to="/interactiveratingcompnent"> Interactive Rating Component</Link></li>
+      </ul>
+    </Container>
   );
 }
 
