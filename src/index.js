@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import InteractiveRatingComponent from './components/interactiveRatingComponent';
+import QRCodeComponent from './components/qr-code-component-main/qrcodecomponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
       <Routes>
         <Route path="/" element= {<App />} />
         <Route path="/interactiveratingcompnent" element= {<InteractiveRatingComponent />} />
+        <Route path="/qrcodecomponentmain" element= {<QRCodeComponent />} />
         <Route path="*" element= {<App />} />
       </Routes>
     </BrowserRouter>
