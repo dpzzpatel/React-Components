@@ -24,7 +24,7 @@ body{
     margin-right: 20px;
     text-align: center;
     color: hsl(212, 55%, 77%);
-    font-size: calc(15px + .39vw);
+    font-size: calc(10px + .39vw);
 }
 
 
